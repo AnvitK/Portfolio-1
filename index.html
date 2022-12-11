@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvit Kamble</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e80e4d648e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- -------------------------------------Main / Hero Section----------------------------------------- -->
+    <div id="main">
+        <div class="nav-bar">
+            <nav>
+                <img src="images/anvitk-logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" id="xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="bars"></i>
+            </nav>
+        </div>
+        <div class="main-container">
+            <div class="info">
+                <div class="info-text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Anvit</span><br>Kamble from India</h1>
+                </div>
+            </div>
+            <div class="photo-section">
+                <img src="images/anvit2.png" alt="" class="my-photo">
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------About Section--------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/anvit.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>Strong in the creation of responsive websites and integration of both front-end and back-end technologies.
+                        Ability to learn new latest trending web technologies with ease.
+                        Passionate about implementing and launching new projects. 
+                        Ability to translate business requirements into technical solutions. Looking to start 
+                        the career as a web developer with a reputed firm driven by technology.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development Technologies :</span><br>JavaScript, Express, MongoDB, Mongoose, NodeJs, EJS, DOM<br>HTML, CSS,Bootstrap, etc.</li>
+                            <li><span>Programming Languages :</span><br>Java, Python, C++</li>
+                            <li><span>Databases :</span><br>SQL, MongoDB</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development :</span><br>JavaScript, Express, MongoDB, NodeJs, HTML, CSS, etc.</li>
+                            <li><span>Programming Languages :</span><br>Java, Python, C++</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2022</span><br>Bachelor of Engineering (BE) in Information Technology (IT)<br>from RAIT, Navi Mumbai, University Of
+                                Mumbai with 8.80 cgpa.</li>
+                            <li><span>2016 - 2018</span><br>Class 12 (CBSE) from B.K Birla Public School, Kalyan with 86%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------------------Services Section--------------------------------------------- -->
+
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odio autem molestiae, esse,
+                        inventore quibusdam, architecto neque dolore corrupti numquam accusamus omnis ipsam.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odio autem molestiae, esse,
+                        inventore quibusdam, architecto neque dolore corrupti numquam accusamus omnis ipsam.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum odio autem molestiae, esse,
+                        inventore quibusdam, architecto neque dolore corrupti numquam accusamus omnis ipsam.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- --------------------------------------Projects Section--------------------------------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Personal Projects</h1>
+            <div class="projects-list">
+                <div class="project">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>YelpCamp Website</h3>
+                        <p>This website lets the user to register and login. The users can view all the campgrounds. Only the registered users can 
+                             add campground or edit their campgrounds and can also add or delete reviews on all the campgrounds. The registered user
+                             can add campground details like title, location, images, price and description of the campground. The added campground 
+                             is then displayed in a show page where its location is also displayed on the map and is displayed as a card on the 
+                             campgrounds index page. </p>
+                        <br>
+                        <p>Main Technologies used: Express, NodeJS, Mongoose, MongoDB, Passport, Cloudinary, MapBox, etc.</p>
+                        <p>Hosting Technologies used: Mongo Atlas, GitHub, Render.com</p>
+                        <div class="project-links">
+                            <a href="https://yelpcamp-8glt.onrender.com" target="_blank"><i
+                                    class="fa-solid fa-campground"></i></a>
+                            <a href="https://github.com/AnvitK/yelpCamp" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Forkify Website</h3>
+                        <p>This website lets you search tons of recipes based on the keyword. The selected recipe is displayed with its preparation duration,
+                             default servings, recipe ingredents and also a button to know more about the recipe. The user can increase or decrease servings, 
+                             which thereby changes recipe ingredents quantities. The user can also bookmark a recipe which gets displayed in bookmark tab. 
+                             The user can also add a recipe.</p>
+                        <br>
+                        <p>Main Technologies used: JavaScript, API, Parcel, NodeJS, SCSS, etc.</p>
+                        <p>Hosting Technologies used: GitHub, Netlify</p>
+                        <div class="project-links">
+                            <a href="https://forkify-anvit.netlify.app/" target="_blank"><i
+                                    class="fa-solid fa-utensils"></i></a>
+                            <a href="https://github.com/AnvitK/forkify" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Mapty Website</h3>
+                        <p>This mini project website gets your current location on the map. The user then selects the desire location,
+                             where the user selects the workout type, distance, duration, cadence or elevation gain based on workout type on the form.
+                             The workouts are then displayed in tiles from the local storage. On clicking on the particular workout tile,
+                             that's workout location is displayed on the map.</p>
+                        <br>
+                        <p>Main Technologies used: JavaScript, Leaflet, OOPs, LocalStorage, etc.</p>
+                        <p>Hosting Technologies used: GitHub, Netlify</p>
+                        <div class="project-links">
+                            <a href="https://mapty-anvit.netlify.app/" target="_blank"><i
+                                    class="fa-solid fa-location-dot"></i></a>
+                            <a href="https://github.com/AnvitK/Mapty" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------------------------------------Contact Section--------------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> anvitkamble@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></i> 7678079318</p>
+                    <div class="social-links">
+                        <a href="https://github.com/AnvitK/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/anvit-kamble-6a8825172" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    <a href="src/AnvitKambleResume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="success-msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <!-- <div class="container"> -->
+        <p>Copyright &#169; Anvit Kamble</p>
+        <!-- </div> -->
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script>
+        const tabLinks = document.getElementsByClassName("tab-links");
+        const tabContents = document.getElementsByClassName("tab-contents");
+
+        // console.log(tabLinks, tabContents);
+        const openTab = (tabname) => {
+            for (tabLink of tabLinks) tabLink.classList.remove("active-link");
+            for (tabContent of tabContents) tabContent.classList.remove("active-tab");
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> -->
+
+    <!-- <script>
+        const sideMenu = document.querySelector('#sidemenu');
+
+        const openMenu = () => sideMenu.style.right = "0";
+        const closeMenu = () => sideMenu.style.right = "-160px";
+
+    </script> -->
+
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzRT4JeRUMwPD-kMRJOf-zavixzpJXSfAF1NbVWJZ9Yuq4jch95lu-eXXJ78jyD1cv9jw/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const successMsg = document.querySelector('#success-msg');
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                // console.log('Success!', response);
+                successMsg.innerHTML = "Message Sent Successfully";
+                setTimeout(() => successMsg.innerHTML = "", 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+        });
+    </script> -->
+
+</body>
+
+</html>
