@@ -127,11 +127,8 @@
                     <img src="images/work-1.png" alt="">
                     <div class="layer">
                         <h3>YelpCamp Website</h3>
-                        <p>This website lets the user to register and login. The users can view all the campgrounds. Only the registered users can 
-                             add campground or edit their campgrounds and can also add or delete reviews on all the campgrounds. The registered user
-                             can add campground details like title, location, images, price and description of the campground. The added campground 
-                             is then displayed in a show page where its location is also displayed on the map and is displayed as a card on the 
-                             campgrounds index page. </p>
+                        <p>This website lets the user to register and login. The users can view all the campgrounds. Only the registered users can
+                         add or edit campgrounds and can also add or delete reviews.</p>
                         <br>
                         <p>Main Technologies used: Express, NodeJS, Mongoose, MongoDB, Passport, Cloudinary, MapBox, etc.</p>
                         <p>Hosting Technologies used: Mongo Atlas, GitHub, Render.com</p>
@@ -147,10 +144,8 @@
                     <img src="images/work-2.png" alt="">
                     <div class="layer">
                         <h3>Forkify Website</h3>
-                        <p>This website lets you search tons of recipes based on the keyword. The selected recipe is displayed with its preparation duration,
-                             default servings, recipe ingredents and also a button to know more about the recipe. The user can increase or decrease servings, 
-                             which thereby changes recipe ingredents quantities. The user can also bookmark a recipe which gets displayed in bookmark tab. 
-                             The user can also add a recipe.</p>
+                        <p>This website lets the user to add or view or bookmark or search a recipe.The user can increase or decrease servings,
+                         which thereby changes recipe ingredents quantities.</p>
                         <br>
                         <p>Main Technologies used: JavaScript, API, Parcel, NodeJS, SCSS, etc.</p>
                         <p>Hosting Technologies used: GitHub, Netlify</p>
@@ -166,10 +161,8 @@
                     <img src="images/work-3.png" alt="">
                     <div class="layer">
                         <h3>Mapty Website</h3>
-                        <p>This mini project website gets your current location on the map. The user then selects the desire location,
-                             where the user selects the workout type, distance, duration, cadence or elevation gain based on workout type on the form.
-                             The workouts are then displayed in tiles from the local storage. On clicking on the particular workout tile,
-                             that's workout location is displayed on the map.</p>
+                        <p>This mini project website lets the user to add or view a workout at a particular location on the map.
+                         The workouts are then displayed in tiles from the local storage.</p>
                         <br>
                         <p>Main Technologies used: JavaScript, Leaflet, OOPs, LocalStorage, etc.</p>
                         <p>Hosting Technologies used: GitHub, Netlify</p>
@@ -199,7 +192,7 @@
                         <a href="https://www.linkedin.com/in/anvit-kamble-6a8825172" target="_blank"><i
                                 class="fa-brands fa-linkedin"></i></i></a>
                     </div>
-                    <a href="src/AnvitKambleResume.pdf" download class="btn btn2">Download Resume</a>
+                    <a href="src/AKResume.pdf" download class="btn btn2">Download Resume</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -220,46 +213,6 @@
     </div>
 
     <script src="script.js"></script>
-    <!-- <script>
-        const tabLinks = document.getElementsByClassName("tab-links");
-        const tabContents = document.getElementsByClassName("tab-contents");
-
-        // console.log(tabLinks, tabContents);
-        const openTab = (tabname) => {
-            for (tabLink of tabLinks) tabLink.classList.remove("active-link");
-            for (tabContent of tabContents) tabContent.classList.remove("active-tab");
-
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script> -->
-
-    <!-- <script>
-        const sideMenu = document.querySelector('#sidemenu');
-
-        const openMenu = () => sideMenu.style.right = "0";
-        const closeMenu = () => sideMenu.style.right = "-160px";
-
-    </script> -->
-
-    <!-- <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzRT4JeRUMwPD-kMRJOf-zavixzpJXSfAF1NbVWJZ9Yuq4jch95lu-eXXJ78jyD1cv9jw/exec';
-        const form = document.forms['submit-to-google-sheet'];
-        const successMsg = document.querySelector('#success-msg');
-
-        form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                // console.log('Success!', response);
-                successMsg.innerHTML = "Message Sent Successfully";
-                setTimeout(() => successMsg.innerHTML = "", 5000);
-                form.reset();
-            })
-            .catch(error => console.error('Error!', error.message));
-        });
-    </script> -->
-
 </body>
 
 </html>
